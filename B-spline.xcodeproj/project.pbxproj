@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D668AA9B1DEC733F0003C12A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D668AA9A1DEC733F0003C12A /* main.c */; };
+		D668AAA21DEC73660003C12A /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D668AAA11DEC73660003C12A /* GLUT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		D668AA971DEC733F0003C12A /* B-spline */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "B-spline"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D668AA9A1DEC733F0003C12A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D668AAA11DEC73660003C12A /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D668AAA21DEC73660003C12A /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +44,7 @@
 		D668AA8E1DEC733F0003C12A = {
 			isa = PBXGroup;
 			children = (
+				D668AAA11DEC73660003C12A /* GLUT.framework */,
 				D668AA991DEC733F0003C12A /* B-spline */,
 				D668AA981DEC733F0003C12A /* Products */,
 			);
@@ -210,6 +214,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ./bin;
 			};
 			name = Debug;
 		};
@@ -217,6 +222,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = ./bin;
 			};
 			name = Release;
 		};
@@ -239,6 +245,7 @@
 				D668AAA01DEC733F0003C12A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
