@@ -1,4 +1,4 @@
-//Mesh Viewer Instruction
+//B-spline Instruction
 
 Compiling platform: Mac OS X
 
